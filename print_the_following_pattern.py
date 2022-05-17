@@ -1,5 +1,6 @@
 n=int(input())
+s='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 for i in range(n):
-    for j in reversed(range(1,n+1)):
-        print(j,end=' ')
+    for j in range(n):
+        print(s[i],end=' ')
     print()
